@@ -1,0 +1,16 @@
+{application, 'infotech-test-task',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'infotech-test-task_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    public_key,crypto,n2o,nitro,syn,cowlib,ranch,cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
