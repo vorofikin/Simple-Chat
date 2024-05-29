@@ -1,8 +1,3 @@
-%%%-------------------------------------------------------------------
-%% @doc infotech-test-task top level supervisor.
-%% @end
-%%%-------------------------------------------------------------------
-
 -module('infotech-test-task_sup').
 
 -behaviour(supervisor).
