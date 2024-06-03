@@ -4,15 +4,23 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type=image/x-icon href=https://n2o.dev/img/favicon.ico />
-    <!--    <link href="synrc.css" type="text/css" rel="stylesheet" />-->
-    <title>Choose your room</title>
+    <title>Chat</title>
 </head>
 <body class="chat">
 <header>
-    <!--    <a href="/app/login.htm"><img src="https://n2o.dev/img/synrc.svg" /></a>-->
-    <h2 id="heading">Choose your room</h2>
+    <h2 id="heading">Room</h2>
 </header>
 <main>
+    <textarea
+        id="message"
+        rows="4"
+        autofocus="true"
+        placeholder="Enter your message">
+    </textarea>
+    <button id="send">
+        Send message
+    </button>
+    <div id="message_list"></div>
 </main>
 <script src="https://ws.n2o.dev/priv/utf8.js"></script>
 <script src="https://ws.n2o.dev/priv/bert.js"></script>
